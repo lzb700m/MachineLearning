@@ -1,4 +1,5 @@
 package bayesianNetwork;
+
 import java.util.LinkedList;
 import java.util.Set;
 
@@ -114,13 +115,6 @@ public class ChowLiuTree {
 							* Math.log((double) Nij * samples.size()
 									/ (Ni * Nj));
 				}
-
-				// System.out.println("F" + i + ": " + xi + ", F" + j + ": " +
-				// xj
-				// + "; Ni=" + Ni + ", Nj=" + Nj + ", Nij=" + Nij
-				// + "; subMutual=" + ((double) Nij / samples.size())
-				// * Math.log((double) Nij * samples.size() / (Ni * Nj))
-				// + "; mutual=" + result);
 			}
 		}
 		return result;

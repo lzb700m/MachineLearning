@@ -11,14 +11,18 @@ import decisionTree.Sample;
 import decisionTree.Utility;
 
 public class AdaBoostingMain {
-	// mushroom data set configuration
+	/*
+	 * mushroom data set configuration
+	 */
 	// private static final String TRAIN = "data/mush_train.data";
 	// private static final String TEST = "data/mush_test.data";
 	// private static final String DECSRIPTION_FILE = "data/mush.description";
 	// public static final String POS_LABEL = "e";
 	// public static final String NEG_LABEL = "p";
 
-	// heart data set configuration
+	/*
+	 * heart data set configuration
+	 */
 	private static final String TRAIN = "data/heart_train.data";
 	private static final String TEST = "data/heart_test.data";
 	private static final String DECSRIPTION_FILE = "data/heart.description";
